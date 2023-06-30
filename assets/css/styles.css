@@ -1,8 +1,15 @@
+:root {
+    --grey-background: #EDE5D6;
+    --white-page: #FDF5E6;
+    --black-font: #373737;
+    --blue-link: #0074D9;
+}
+
 body {
     font-family: "Merriweather", sans-serif;
-    background-color: #E0E0E0;
+    background-color: var(--grey-background);
     font-size: 110%;
-    color: #373737;
+    color: var(--black-font);
     margin: 0px;
 }
 
@@ -28,7 +35,7 @@ li {
 }
 
 a {
-    color: #0074D9;
+    color: var(--blue-link);
 }
 
 a:link {
@@ -47,7 +54,7 @@ nav {
 .page{
     margin: auto;
     max-width: 1200px;
-    background: #F0F0F0;
+    background: var(--white-page);
     padding-top: 20px;
     padding-bottom: 250px;
     padding-left: 50px;
@@ -65,7 +72,7 @@ nav {
     display: inline-block;
     font-size: 75%;
     font-weight: bold;
-    border: solid 2px #0074D9;
+    border: solid 2px var(--blue-link);
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 2px;
@@ -74,15 +81,15 @@ nav {
 }
 
 .current {
-    color: #F0F0F0;
-    background-color: #373737;
-    border-color: #373737;
+    color: var(--white-page);
+    background-color: var(--black-font);
+    border-color: var(--black-font);
 }
 
 .link:hover {
     text-decoration: none;
-    color: #F0F0F0;
-    background-color: #0074D9;
+    color: var(--white-page);
+    background-color: var(--blue-link);
 }
 
 .footer {
