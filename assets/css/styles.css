@@ -72,6 +72,7 @@ nav {
     font-size: 75%;
     font-weight: bold;
     border: solid 2px var(--blue-link);
+/*    margin-top: 6px;*/
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 2px;
