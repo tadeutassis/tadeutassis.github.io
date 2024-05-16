@@ -81,14 +81,15 @@ ul {
 }
 
 .gallery img {
-    border: 3px darkgray solid;
+    border: 3px lightgray solid;
     border-radius: 15px;
+    background-color: whitesmoke;
     width: 300px;
     padding: 10px;
 }
 
 .gallery img:hover {
-    border: 3px black solid;
+    border: 3px gray solid;
 }
 
 .figlabel {
