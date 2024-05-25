@@ -1,23 +1,20 @@
 :root {
     --blue: #0074D9;
-    --black: #303030;
     
 }
 
 body {
-    font-family: "Roboto", "Open Sans", sans-serif;
-    color: var(--black);
-    font-size: 120%;
-    max-width: 1300px;
+    font-family: "Lato", "Open Sans", sans-serif;
+    max-width: 800px;
     margin: auto;
-    padding: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 20rem;
+    padding-top: 2rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     body {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -36,69 +33,69 @@ a:hover {
 ul {
     margin: 0;
     padding: 0;
-    padding-left: 19px;
+    padding-left: 2rem;
 }
 
-.title-container {
-    display: flex;
-    align-items: center;
-}
-
-.title-text{
-    display: block;
-    margin: 3px;
-    margin-left: 20px;
-}
-
-.name {
-    font-family: "Roboto Condensed", "Open Sans", sans-serif;
-    font-size: 200%;
-    font-weight: 900;
-}
-
-.title-image {
+.header-image {
     width: 200px;
 }
 
-.table-row {
-    display: flex;
-    margin-bottom: 30px;
+.header {
+    padding-left: 1rem;
 }
 
-.left {
-    flex: 80px;
+.name {
+    font-family: "Josefin Sans", "Open Sans", sans-serif;
+    font-size: 200%;
     font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
+    margin-bottom: 0.3rem;
 }
 
-.right {
-    flex: 100%;
+.header p {
+    margin: 0;
+    margin-bottom: 0.3rem;
+    font-size: 85%;
 }
 
-.gallery {
-    margin: 5px;
-    width: fit-content;
+.header a{
+    font-weight: bold;
+    font-size: 85%;
+    border: 2px var(--blue) solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     display: inline-block;
 }
 
-.gallery img {
-    border: 3px lightgray solid;
-    border-radius: 15px;
-    background-color: whitesmoke;
-    width: 300px;
-    padding: 10px;
+.header a:hover{
+    background-color: var(--blue);
+    color: white;
+    text-decoration: none;
 }
 
-.gallery img:hover {
-    border: 3px gray solid;
-}
-
-.figlabel {
-    font-size: 90%;
+.pub-year{
+    vertical-align: top;
     text-align: center;
+    font-weight: bold;
+}
+
+.gallery-item {
+    display: inline-block;
+    border: 3px solid gray;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.gallery-item img {
+    max-height: 180px;
+    width: auto;
+    padding: 5px;
 }
 
 .footer {
     text-align: center;
-    font-size: 75%;
+    font-size: 85%;
     margin-top: 75px;
 }
