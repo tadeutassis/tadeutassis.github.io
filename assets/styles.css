@@ -8,7 +8,6 @@ body {
     max-width: 800px;
     margin: auto;
     padding-bottom: 20rem;
-    padding-top: 2rem;
 }
 
 @media (max-width: 900px) {
@@ -38,13 +37,16 @@ ul {
 
 .header-image {
     width: 200px;
+    padding-right: 1rem;
 }
 
-.header {
-    padding-left: 1rem;
+.header-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1rem;
 }
 
-.name {
+.header-name {
     font-family: "Josefin Sans", "Open Sans", sans-serif;
     font-size: 200%;
     font-weight: bold;
@@ -53,13 +55,13 @@ ul {
     margin-bottom: 0.3rem;
 }
 
-.header p {
+.header-item p {
     margin: 0;
     margin-bottom: 0.3rem;
     font-size: 85%;
 }
 
-.header a{
+.header-item a{
     font-weight: bold;
     font-size: 85%;
     border: 2px var(--blue) solid;
@@ -69,7 +71,7 @@ ul {
     display: inline-block;
 }
 
-.header a:hover{
+.header-item a:hover{
     background-color: var(--blue);
     color: white;
     text-decoration: none;
