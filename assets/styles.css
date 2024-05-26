@@ -38,6 +38,10 @@ ul {
     padding-left: 2rem;
 }
 
+li {
+    margin-bottom: 2px;
+}
+
 .header-image {
     width: 200px;
     padding-right: 1rem;
@@ -64,20 +68,10 @@ ul {
     font-size: 85%;
 }
 
-.header-item a{
+.link-button{
     font-weight: bold;
     font-size: 85%;
-    border: 2px var(--blue) solid;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
     display: inline-block;
-}
-
-.header-item a:hover{
-    background-color: var(--blue);
-    color: white;
-    text-decoration: none;
 }
 
 .pub-year{
@@ -89,14 +83,23 @@ ul {
 .gallery-item {
     display: inline-block;
     border: 3px solid gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
     margin-right: 3px;
     margin-top: 5px;
+}
+
+.figcaption {
+    text-align: center;
+    font-size: 85%;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 .gallery-item img {
     max-height: 180px;
     width: auto;
-    padding: 5px;
+    padding: 20px;
 }
 
 .footer {
