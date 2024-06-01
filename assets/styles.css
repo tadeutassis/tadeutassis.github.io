@@ -93,13 +93,13 @@ li {
     text-align: center;
     font-size: 85%;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 
 .gallery-item img {
-    max-height: 180px;
+    max-height: 120px;
     width: auto;
-    padding: 20px;
+    padding: 12px;
 }
 
 .footer {
