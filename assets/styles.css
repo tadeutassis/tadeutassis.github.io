@@ -109,6 +109,15 @@ body {
   margin-bottom: 1rem;
 }
 
+.book-year {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.book-list {
+  line-height: 1.5rem;
+}
+
 a {
   color: var(--blue);
   text-decoration: none;
